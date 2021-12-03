@@ -16,6 +16,7 @@ this `Telegram Bot` Application can be added users to Telegram Channel or Group 
 ``` pip install pyTelegramBotAPI```
 
 ```pip install telebo```
+```pip install rich```
 
 <img src="https://github.com/h4medgit/mussjoin/blob/main/Screenshot%202021-12-03%20064243.jpg"
      alt="mussjoin image">
