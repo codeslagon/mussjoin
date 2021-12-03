@@ -21,3 +21,6 @@ this `Telegram Bot` Application can be added users to Telegram Channel or Group 
      alt="mussjoin image">
      
 in the above image, you can see 3 methods that have string parameters. you should change those are with your Telegram Bot information. First, input your token in Telebot. (). then from <a href="https://t.me/get_id_bot">getID</a> bot from telegram, get your CHAT ID and channel CHAT ID by forwarding a message for your specific channel or group. pay attention that using - first integer character.
+
+```diff
+- Note that you must admin the robot in the desired group or channel
