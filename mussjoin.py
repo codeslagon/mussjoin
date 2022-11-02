@@ -9,10 +9,10 @@ console = Console()
 log = console.log
 #-------------------------------
 
-bot = telebot.TeleBot("Token input")
+bot = telebot.TeleBot("5752551076:AAFPXorMvZ4QnNqYbR9GoEkuctJyAizCGzE")
 users_join_data = {} # { user_id: {chat_id: is_joined_or_not} }
-all_chat_ids = ["TELEGRAM CHAT ID OF GROUP"]
-all_admin_ids = ["TELEGRAM CHAT ID OF ADMIN"] # unusable, for now!
+all_chat_ids = ["-1001693174398"]
+all_admin_ids = ["5412438166"] # unusable, for now!
 
 def check_joins():
     for user_id in users_join_data:
@@ -73,11 +73,11 @@ def command_start(message):
         log("True for", user_id, users_join_data[user_id])
         markup = telebot.types.InlineKeyboardMarkup(row_width = 1)
         markup.add(
-            telebot.types.InlineKeyboardButton("joined", callback_data="/start")
+            telebot.types.InlineKeyboardButton("➡️Katıldım⬅️", callback_data="/start")
         )
         bot.send_message(
             message.chat.id,
-            "First Join to Channel\nhttps://t.me/+U-1xiMKXbM3T2HCd",
+            "**🔮Kanala Katılman Gerek**\nhttps://t.me/ZehirHack2",
             reply_markup = markup
         )    
 
